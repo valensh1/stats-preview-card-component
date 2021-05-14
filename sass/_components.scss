@@ -1,0 +1,44 @@
+// STYLING FOR INDIVIDUAL COMPONENTS WITHIN THE TEXT-SIDE AND PICTURE SIDE OF CARD
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__saying {
+        background-color: var(--color-card-background);
+        color: var(--text-color-white);
+
+
+        &-span {
+            color: var(--color-accent);
+        }
+
+        &-paragraph {
+            color: var(--text-color-main-paragraph);
+        }
+    }
+
+    
+}
+
+.stats {
+
+
+    &__col {
+
+
+        &-number {
+            color: var(--text-color-white);
+        }
+
+        &-text {
+            color: var(--text-color-stats-headings);
+        }
+    }
+}
+
+.picture-side__picture {
+    height: 100%;
+        width: 100%;
+}

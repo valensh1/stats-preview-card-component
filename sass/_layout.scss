@@ -1,0 +1,39 @@
+// THIS IS THE OVERALL HIGH LEVEL LAYOUT STYLING WITH 3 SECTIONS - TEXT SIDE WITH HEADER AND STATS AND THEN PICTURE SIDE
+.container {
+    height: 100vh;
+    min-width: 1440px;
+    background-color: var(--color-main-background);
+    border: 10px solid red; // NEED TO DELETE WHEN DONE
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 60%;
+    width: 70%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid green;  // NEED TO DELETE WHEN DONE
+}
+
+.text-side {
+    height: 60%;
+    width: 50%;
+    background-color: var(--color-card-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture-side {
+   height: 60%; 
+   width: 50%;
+}
