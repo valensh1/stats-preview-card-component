@@ -1,5 +1,6 @@
 // STYLING FOR INDIVIDUAL COMPONENTS WITHIN THE TEXT-SIDE AND PICTURE SIDE OF CARD
 .header {
+    margin: 3rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,17 +9,22 @@
     &__saying {
         background-color: var(--color-card-background);
         color: var(--text-color-white);
+        font-size: 2rem;
+        width: 81%;
+        
 
 
         &-span {
             color: var(--color-accent);
-        }
-
-        &-paragraph {
-            color: var(--text-color-main-paragraph);
+            font-size: inherit;
         }
     }
 
+    &__paragraph {
+        color: var(--text-color-main-paragraph);
+        width: 81%;
+        line-height: 1.5rem;
+    }
     
 }
 
@@ -34,11 +40,14 @@
 
         &-text {
             color: var(--text-color-stats-headings);
+            margin-top: -.5rem;
         }
     }
 }
 
-.picture-side__picture {
-    height: 100%;
-        width: 100%;
-}
+// .picture-side__picture {
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 0 4px 4px 0;
+//     background: linear-gradient(var(--color-accent), var(--color-accent))
+// }

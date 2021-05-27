@@ -8,6 +8,7 @@
 
 :root {
   --color-accent: hsl(277, 64%, 61%);
+  --color-accent-bg: rgba(277, 64%, 61%, .3);
   --color-main-background: hsl(233, 47%, 7%);
   --color-card-background: hsl(244, 38%, 16%);
   --text-color-main-paragraph: hsla(0, 0%, 100%, 0.75);
@@ -20,8 +21,10 @@ html {
   box-sizing: inherit; }
 
 .container {
-  height: 100vh;
-  min-width: 1440px;
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 7rem;
   background-color: var(--color-main-background);
   border: 10px solid red;
   display: flex;
@@ -29,49 +32,57 @@ html {
   align-items: center; }
 
 .content {
-  height: 60%;
-  width: 70%;
+  height: 50%;
+  width: 60%;
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 3px solid green; }
+  align-items: center; }
 
 .text-side {
-  height: 60%;
+  height: 100%;
   width: 50%;
   background-color: var(--color-card-background);
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-radius: 4px 0 0 4px; }
 
 .stats {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center; }
 
 .picture-side {
-  height: 60%;
-  width: 50%; }
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(rgba(238, 130, 238, 0.5), rgba(238, 130, 238, 0.5)), url(../images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .header {
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
   .header__saying {
     background-color: var(--color-card-background);
-    color: var(--text-color-white); }
+    color: var(--text-color-white);
+    font-size: 2rem;
+    width: 81%; }
     .header__saying-span {
-      color: var(--color-accent); }
-    .header__saying-paragraph {
-      color: var(--text-color-main-paragraph); }
+      color: var(--color-accent);
+      font-size: inherit; }
+  .header__paragraph {
+    color: var(--text-color-main-paragraph);
+    width: 81%;
+    line-height: 1.5rem; }
 
 .stats__col-number {
   color: var(--text-color-white); }
 
 .stats__col-text {
-  color: var(--text-color-stats-headings); }
-
-.picture-side__picture {
-  height: 100%;
-  width: 100%; }
+  color: var(--text-color-stats-headings);
+  margin-top: -.5rem; }
