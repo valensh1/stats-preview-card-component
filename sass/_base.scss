@@ -16,10 +16,15 @@
     --text-color-main-paragraph: hsla(0, 0%, 100%, 0.75);
     --text-color-stats-headings: hsla(0, 0%, 100%, 0.6);
     --text-color-white: hsl(0, 0%, 100%);
+    --font-size-small: 75%;
 }
 
 html {
     font-size: inherit;
     font-family: inherit;
     box-sizing: inherit;
+
+    @media only screen and (max-width: 375px) { // Media query that says below 1200px decrease our font size to 50% which equates to 8px.
+        font-size: 50%; // 16px standard x 50% = 8px. So below 1200px screen size our font-size goes from 10px down to 8px. All our SCSS files are based off of this percentage so then they take the 8px and use rem so below 1200px 1rem = 8px instead of 10px for screen sizes above 1200px.
+    }
 }

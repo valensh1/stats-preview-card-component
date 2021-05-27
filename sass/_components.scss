@@ -11,6 +11,12 @@
         color: var(--text-color-white);
         font-size: 2rem;
         width: 81%;
+
+        @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+            font-size: 2.2rem;
+            width: 55%;
+            text-align: center;
+        }
         
 
 
@@ -24,30 +30,52 @@
         color: var(--text-color-main-paragraph);
         width: 81%;
         line-height: 1.5rem;
+        font-size: 1.1rem;
+
+        @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+            font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+            width: 60%;
+            text-align: center;
+            line-height: 1.8;
+        }
     }
     
 }
 
 .stats {
-
+    margin-bottom: 3rem;
 
     &__col {
 
-
         &-number {
             color: var(--text-color-white);
+            font-size: 1.8rem;
+
+            @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+                font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+                margin: auto;
+            }
         }
 
         &-text {
             color: var(--text-color-stats-headings);
-            margin-top: -.5rem;
+            margin-top: -2rem;
+            text-transform: uppercase;
+
+            @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+                font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+                margin-top: .5rem;    
+            }
+        }
+        @media only screen and (max-width: 375px) { // Media query that says below 375px do code below.
+            margin-top: 0; 
+            width: 100%;   
         }
     }
+
+    // @media only screen and (max-width: 375px) { // Media query that says below 375px do code below.
+    //     margin: auto;
+    // }
 }
 
-// .picture-side__picture {
-//     height: 100%;
-//     width: 100%;
-//     border-radius: 0 4px 4px 0;
-//     background: linear-gradient(var(--color-accent), var(--color-accent))
-// }
+
