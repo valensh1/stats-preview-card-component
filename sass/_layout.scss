@@ -8,10 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     @media only screen and (max-width: 375px) { 
         width: 100%;
-        height: 100vh;  
+        height: 100vh;
+        margin-top: 0;  
     }
 }
 
@@ -22,6 +23,11 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+
+    @media only screen and (max-width: 1600px) {
+        height: 65%;
+        width: 79%;
+     }
 
     @media only screen and (max-width: 375px) {
        flex-direction: column;
@@ -39,23 +45,28 @@
     justify-content: space-between;
     border-radius: 10px 0 0 10px;
     
+    @media only screen and (max-width: 1600px) { // Media query that says below 375px do code below.
+        height: 78%;
+    }
+    
     @media only screen and (max-width: 375px) { // Media query that says below 375px do code below.
         order: 2; 
         border-radius: 0 0 10px 10px;
         width: 90%;
         height: 60%;
-
     }
 }
 
 .stats {
     display: flex;
     justify-content: space-evenly;
+    
 
 
     @media only screen and (max-width: 375px) { // Media query that says below 375px do code below.
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         height: 100%;
     }
 }
@@ -69,10 +80,15 @@
    filter: brightness(.75) contrast(150%) opacity(.85);
    border-radius: 0 10px 10px 0;
 
+   @media only screen and (max-width: 1600px) { // Media query that says below 375px do code below.
+   height: 78%;
+   width: 43%;
+   background-size: contain;
+}
+   
    @media only screen and (max-width: 375px) { // Media query that says below 375px do code below.
         border-radius: 10px 10px 0 0;
         width: 90%; 
-        height: 33%;
-         
+        height: 33%; 
     }
 }
