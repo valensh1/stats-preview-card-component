@@ -26,10 +26,10 @@ The challenge was to build out a card component and get it looking as close to t
 
 ### Screenshot
 
-### Desktop Version
+### Desktop Finished Version
 ![screenshot of finished project](/images/Finished_Desktop.png?raw=true "screenshot of finished project")
 
-### Mobile Version
+### Mobile Finished Version
 ![screenshot of finished project](/images/Finished_Mobile.png?raw=true "screenshot of finished project")
 
 ### Links
@@ -44,7 +44,7 @@ The challenge was to build out a card component and get it looking as close to t
 
 ### What I learned
 
-Learned how to take a website design and fully implement it and closely replicate the design. This challenge helped me gain more confidence in my use and knowledge of flexbox. In addition, this challenge really helped me get my hands dirty with responsive web design. I am also very proud of my knowledge with the use of linear-gradients on the background-image property.
+Learned how to take a website design and fully implement it and closely replicate the design. This challenge helped me gain more confidence in my use and knowledge of flexbox. In addition, this challenge really helped me get my hands dirty with responsive web design. I am also very proud of my knowledge with the use of linear-gradients on the background-image property (see code below).
 
 ```css
 .picture-side {
@@ -58,7 +58,7 @@ Looking forward to participating in more challenges that further solidify my kno
 
 ## Author
 
-- Portfolio Website - [https://shaun-valentine-portfolio.herokuapp.com/]
-- Frontend Mentor Profile - [https://www.frontendmentor.io/profile/valensh1]
+- Portfolio Website - (https://shaun-valentine-portfolio.herokuapp.com/)
+- Frontend Mentor Profile - (https://www.frontendmentor.io/profile/valensh1)
 
 
