@@ -26,8 +26,8 @@ The challenge was to build out a card component and get it looking as close to t
 
 ### Screenshot
 
-![screenshot of finished project](/img/Finished_Desktop.png?raw=true "screenshot of finished project")
-![screenshot of finished project](/img/Finished_Mobile.png?raw=true "screenshot of finished project")
+![screenshot of finished project](/images/Finished_Desktop.png?raw=true "screenshot of finished project")
+![screenshot of finished project](/images/Finished_Mobile.png?raw=true "screenshot of finished project")
 
 ### Links
 
