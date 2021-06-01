@@ -42,9 +42,6 @@ The challenge was to build out a card component and get it looking as close to t
 - HTML
 - CSS - use of Flexbox
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 Learned how to take a website design and fully implement it and closely replicate the design. This challenge helped me gain more confidence in my use and knowledge of flexbox. In addition, this challenge really helped me get my hands dirty with responsive web design. I am also very proud of my knowledge with the use of linear-gradients on the background-image property.
@@ -61,7 +58,7 @@ Looking forward to participating in more challenges that further solidify my kno
 
 ## Author
 
-- Website - [Shaun Valentine](https://shaun-valentine-portfolio.herokuapp.com/)
-- Frontend Mentor - [Shaun Valentine](https://www.frontendmentor.io/profile/valensh1)
+- Portfolio Website - [https://shaun-valentine-portfolio.herokuapp.com/]
+- Frontend Mentor Profile - [https://www.frontendmentor.io/profile/valensh1]
 
 
