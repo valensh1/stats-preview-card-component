@@ -12,19 +12,19 @@
         width: 81%;
 
     
-        @media only screen and (max-width: 1600px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+        @media only screen and (max-width: 1600px) { // Media query that says below 1600px decrease our font size to 50% which equates to 7.5px.
             font-size: 1.2rem;
             width: 90%;
             text-align: left;
             margin: 0 auto;
         }
 
-        @media only screen and (max-width: 1200px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+        @media only screen and (max-width: 1200px) { // Media query that says below 1200px decrease our font size to 50% which equates to 7.5px.
             font-size: 1.5rem;
             width: 80%;
         }
 
-        @media only screen and (max-width: 800px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
+        @media only screen and (max-width: 800px) { // Media query that says below 800px decrease our font size to 50% which equates to 7.5px.
             font-size: 1.2rem;
             width: 70%;
         }
@@ -47,22 +47,22 @@
         line-height: 1.5rem;
         font-size: 1.1rem;
 
-        @media only screen and (max-width: 1600px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
-           font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+        @media only screen and (max-width: 1600px) { // Media query that says below 1600px decrease our font size to 75%.
+           font-size: var(--font-size-small); // 15px standard x 75% = 11.25px. So below 1600px screen size our font-size goes from 15px down to 11.25px.
            width: 90%;
            text-align: left;
            line-height: 1.7;
            margin-top: 2rem;
         }
 
-        @media only screen and (max-width: 1200px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
-            font-size: var(--font-size-medium); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+        @media only screen and (max-width: 1200px) { // Media query that says below 1200px decrease our font size to 90%.
+            font-size: var(--font-size-medium); // 15px standard x 90% = 13.5px. So below 1200px screen size our font-size goes from 15px down to 13.5px.
             margin-top: 3rem;
             text-align: left;
          }
         
-        @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
-            font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+        @media only screen and (max-width: 375px) { // Media query that says below 375px decrease our font size to 75%.
+            font-size: var(--font-size-small); // 15px standard x 75% = 11.25px. So below 1600px screen size our font-size goes from 15px down to 11.25px.
             width: 60%;
             text-align: center;
             line-height: 1.8;
@@ -80,8 +80,9 @@
             color: var(--text-color-white);
             font-size: 1.8rem;
 
-            @media only screen and (max-width: 1600px) { // Media query that says below 375px decrease our font size to 50% which equates to 7.5px.
-                font-size: var(--font-size-medium); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+            @media only screen and (max-width: 1600px) { // Media query that says below 1600px decrease our font size to 75%.
+                font-size: var(--font-size-medium); // 15px standard x 75% = 11.25px. So below 1600px screen size our font-size goes from 15px down to 11.25px.
+                width: 90%;
                 display: inline-block;
             }
 
@@ -99,8 +100,8 @@
             margin-top: -2rem;
             text-transform: uppercase;
 
-            @media only screen and (max-width: 1600px) { // Media query that says below 375px do code below.
-                font-size: var(--font-size-small); // 15px standard x 50% = 7.5px. So below 375px screen size our font-size goes from 15px down to 7.5px.
+            @media only screen and (max-width: 1600px) { // Media query that says below 1600px decrease our font size to 75%.
+                font-size: var(--font-size-small); // 15px standard x 75% = 11.25px. So below 1600px screen size our font-size goes from 15px down to 11.25px.
                 display: inline-block;
                 margin-top: -.5rem;
             }
@@ -113,13 +114,13 @@
             }
         }
 
-        @media only screen and (max-width: 1600px) { // Media query that says below 375px do code below.
+        @media only screen and (max-width: 1600px) { // Media query that says below 1600px do code below.
             display: flex;
             flex-direction: column;
         }
     }
  
-    @media only screen and (max-width: 1600px) { // Media query that says below 375px do code below.
+    @media only screen and (max-width: 1600px) { // Media query that says below 1600px do code below.
         margin-top: -2rem;
     }
 

@@ -214,6 +214,7 @@ body {
     @media only screen and (max-width: 1600px) {
       .stats__col-number {
         font-size: var(--font-size-medium);
+        width: 90%;
         display: inline-block; } }
     @media only screen and (max-width: 375px) {
       .stats__col-number {
